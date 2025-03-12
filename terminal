@@ -1,0 +1,7 @@
+mkdir image-upload-app
+cd image-upload-app
+npm init -y
+npm install express mongoose multer dotenv cors
+npm install --save-dev nodemon
+docker-compose up -d
+npm run dev 
